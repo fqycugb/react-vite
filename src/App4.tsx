@@ -84,10 +84,9 @@ function App4() {
 }
 
 function aa() {
-  var a = 10;
   var obj = {
     a: 20,
-    say: () => {
+    say: function(this: { a: number }) {
       console.log(this);
       console.log(this.a);
     },

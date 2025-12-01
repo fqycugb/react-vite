@@ -1,14 +1,11 @@
-import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect } from 'react'
 import './App.css'
 import { a } from './data'
 import Macy from 'macy'
 
 function App() {
-  const [count, setCount] = useState(0)
   useEffect(() => {
-    var masonry = new Macy({
+    new Macy({
       container: '#macy-container',
       trueOrder: false,
       waitForImages: false,

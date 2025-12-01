@@ -1,5 +1,6 @@
-import { RainbowButton } from "@/components/ui/rainbow-button"
+// RainbowButton 组件模块不存在，已注释掉
+// import { RainbowButton } from "@/components/ui/rainbow-button"
 
 export function RainbowButtonDemo() {
-  return <RainbowButton>Get Unlimited Access</RainbowButton>;
+  return <button>Get Unlimited Access</button>;
 }
